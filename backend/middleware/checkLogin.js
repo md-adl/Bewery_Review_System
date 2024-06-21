@@ -18,3 +18,7 @@ export const checkLogin=async(req,res,next)=>{
         res.status(500).json({ status: "failed", message: "something went wrong", error: err.message })
     }
 }
+
+
+
+
